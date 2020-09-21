@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-rainbow",
+  "version": "0.0.1",
+  "description": "Static AST checker for React Rainbow Components projects",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "rainbow",
+    "react-rainbow-components",
+    "rainbow-ui"
+  ],
+  "author": "Reinier Guerra",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
