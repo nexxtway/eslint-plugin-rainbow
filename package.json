@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-rainbow",
-  "version": "0.0.1",
-  "description": "Static AST checker for React Rainbow Components projects",
+  "version": "0.0.2",
+  "description": "Static AST checker for React Rainbow Components projects.",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -24,5 +24,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git@github.com:nexxtway/eslint-plugin-rainbow.git"
 }
