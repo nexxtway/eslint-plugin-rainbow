@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-rainbow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Static AST checker for React Rainbow Components projects.",
   "keywords": [
     "eslint",
