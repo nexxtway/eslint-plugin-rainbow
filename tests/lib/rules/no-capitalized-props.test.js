@@ -14,6 +14,7 @@ ruleTester.run('no-capitalized-props', rule, {
         { code: '<Foo bar={value}></Foo>' },
         { code: '<Foo isLoading={isLoading}/>' },
         { code: '<input type="number"/>' },
+        { code: '<Foo isLoading={isLoading} {...rest} />' },
     ].map(parserOptionsMapper),
     invalid: [
         { code: '<Foo Bar={value}></Foo>', errors: [expectedError] },  
