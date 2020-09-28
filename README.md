@@ -43,6 +43,8 @@ Then configure the rules you want to use under the rules section.
 ## Supported Rules
 
 * no-double-negation-renderif
+* no-capitalized-props
+* no-required-props-ts-declaration
 
 
 

@@ -9,7 +9,7 @@ const expectedError = {
     type: 'JSXOpeningElement',
 };
 
-ruleTester.run('no-double-negation-renderif', rule, {
+ruleTester.run('no-capitalized-props', rule, {
     valid: [
         { code: '<Foo bar={value}></Foo>' },
         { code: '<Foo isLoading={isLoading}/>' },
