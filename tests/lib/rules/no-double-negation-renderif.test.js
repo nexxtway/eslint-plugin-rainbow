@@ -5,7 +5,7 @@ const parserOptionsMapper = require('../parserOptionsMapper');
 const ruleTester = new RuleTester();
 
 const expectedError = {
-    message: 'Do not use double negation on RenderIf. It\'s done inside of the component.',
+    message: 'Do not use double negation on RenderIf. The boolean cast is done inside of the component.',
     type: 'JSXOpeningElement',
 };
 
