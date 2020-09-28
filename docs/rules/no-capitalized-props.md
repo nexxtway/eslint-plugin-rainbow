@@ -10,9 +10,22 @@ The following patterns are considered warnings:
 <Foo IsLoading={expression}></Foo>
 ```
 
+```js
+Foo.propTypes = {
+    Bar: PropTypes.string,
+}
+```
+
 The following patterns are not considered warnings:
 
 ```jsx
 <Foo isLoading={expression} /></Foo>
 ```
+
+```js
+Foo.propTypes = {
+    bar: PropTypes.string,
+}
+```
+
 
